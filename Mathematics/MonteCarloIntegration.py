@@ -48,9 +48,9 @@ for i in range(N):
 # Calculate integral estimate
 area = (total/N) * (0.4 * 3 * np.pi)
 
-plt.title("Approximate Integral of $-sin(x)/x$ using a Monte Carlo Method")
-plt.xlabel("x")
-plt.ylabel("$f(x)$")
+plt.title(r"Approximate Integral of $-sin(x)/x$ using a Monte Carlo Method")
+plt.xlabel(r"$x$")
+plt.ylabel(r"$f(x)$")
 plt.grid()
 plt.show()
 
